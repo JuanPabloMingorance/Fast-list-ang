@@ -1,0 +1,4 @@
+<label for="inputTask">{{text}}</label>
+<input type="text" id="inputTask" [placeholder]="placeHolder" #inputTask>
+<button (click)="setTask(inputTask)">Save Task</button>
+<list-view-app></list-view-app>

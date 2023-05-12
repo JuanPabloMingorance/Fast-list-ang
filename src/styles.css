@@ -1,1 +1,6 @@
 /* You can add global styles to this file, and also import other style files */
+body{
+  background-image: url(./public/magicpattern-seamless-patterns-1683914908031.png);
+  background-repeat: repeat;
+  background-position: center;
+}

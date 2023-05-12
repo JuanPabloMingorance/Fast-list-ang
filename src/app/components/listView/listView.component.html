@@ -1,0 +1,8 @@
+<ng-container>
+  <ul *ngIf="tasks" class="list-container">
+      <li class="card-task" *ngFor="let task of tasks, let i = index" >
+        {{task.text}}
+        <button class="btn" type="button" (click)="isComplete(i)">Complete</button>
+      </li>
+  </ul>
+</ng-container>
